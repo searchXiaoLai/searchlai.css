@@ -7,7 +7,7 @@
  */
 
  html {
-  font-family: sans-serif; /* 1 */
+  font-family: "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -429,8 +429,21 @@ th {
 /**
 *searchxiaolai.css starts
 */
+a {
+    text-decoration: none;
+}
+p {
+    margin: 0;
+}
+*{
+    outline:none;
+}
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
 .container {
-    max-width: 1200px;
+    max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
@@ -526,8 +539,8 @@ th {
     display: inline;
 }
 
-/* grids for xxsmall screen < 360px */
-@media (max-width: 360px) {
+/* grids for xxsmall screen > 320px */
+@media (min-width: 360px) {
     .xx-relative {
         position: relative;
     }
@@ -599,8 +612,8 @@ th {
     }
 }
 
-/* grids for xsmall screen < 400px */
-@media (max-width: 400px) {
+/* grids for xsmall screen > 360px */
+@media (min-width: 400px) {
     .xs-relative {
         position: relative;
     }
@@ -672,8 +685,8 @@ th {
     }
 }
 
-/* grids for small screen < 640px */
-@media (max-width: 640px) {
+/* grids for small screen > 400px */
+@media (min-width: 640px) {
     .sm-relative {
         position: relative;
     }
@@ -745,8 +758,8 @@ th {
     }
 }
 
-/* grids for medium screen < 768px */
-@media (max-width: 768px) {
+/* grids for medium screen > 768px */
+@media (min-width: 768px) {
     .col-md {
         float: left;
         box-sizing: border-box;
@@ -814,8 +827,8 @@ th {
     }
 }
 
-/* grids for large screen < 960px */
-@media (max-width: 960px) {
+/* grids for large screen > 960px */
+@media (min-width: 960px) {
     .lg-relative {
         position: relative;
     }
@@ -888,8 +901,8 @@ th {
 }
 
 
-/* grids for xlarge screen < 1280px */
-@media (max-width: 1280px) {
+/* grids for xlarge screen > 1280px */
+@media (min-width: 1280px) {
     .xl-relative {
         position: relative;
     }
