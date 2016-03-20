@@ -133,11 +133,6 @@
  * contexts in Firefox 4+, Safari, and Chrome.
  */
 
- h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-
 /**
  * Address styling not present in IE 8/9.
  */
@@ -423,8 +418,34 @@ th {
   padding: 0;
 }
 
-
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+.h1 {
+    font-size: 21px;
+}
+.h2 {
+    font-size: 20px;
+}
+.h4 {
+    font-size: 16px;
+}
+.h5 {
+    font-size: 14px;
+}
+.h6 {
+    font-size: 12px;
+}
+.f-bold {
+    font-weight: bold;
+}
 
 /**
 *searchxiaolai.css starts
@@ -448,12 +469,25 @@ p {
     margin-right: auto;
     box-sizing: border-box;
 }
-
-.float-left {
+.overflow-hidden {
+    overflow: hidden;
+}
+.b-center {
+    margin: 0 auto;
+}
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
+.vertical-center {
+    top: 50%;
+    transform: translateY(-50%);
+}
+.f-left {
     float: left;
 }
 
-.float-right {
+.f-right {
     float: right;
 }
 
