@@ -2,6 +2,9 @@
  	-ms-text-size-adjust: 100%; 
  	-webkit-text-size-adjust: 100%;
  }
+ body {
+  font-family: "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+}
  body,
  ul,
  p {
@@ -89,11 +92,13 @@
  textarea {
   	outline: 0;	
  }
- h1,
- h2,
- h3,
- h4,
- h5,
- h6{
-     margin: 0;
- }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
